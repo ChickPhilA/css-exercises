@@ -1,0 +1,15 @@
+/* Do not forget that the . indicates a class selector! */
+
+.click_yes {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.click_no {
+    background-color: rgb(255, 255, 0);
+}
+
+.click_yes, .click_no {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}

@@ -1,0 +1,11 @@
+/*  This is styling via the External CSS method. */
+
+div {
+    background-color: red; /* only surrounds the text's background color
+    instead of the whole page */
+
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700; /*remember that 700 is equivalent to bold; you can just also say 'bold'*/
+}
