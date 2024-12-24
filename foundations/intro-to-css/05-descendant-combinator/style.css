@@ -1,0 +1,20 @@
+/* Should be right! */
+/* Explanation: div is the ancestor selector, while p is the
+descendant selector. So, any p elements that are nested within
+a div element will have these attributes. */
+
+div p {
+    background-color: #ffff00;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* According to the solutions, any other possible solutions suffice::after
+
+.container .text (what solution offered)
+.container p
+div .text
+div p (what i used)
+
+*/
