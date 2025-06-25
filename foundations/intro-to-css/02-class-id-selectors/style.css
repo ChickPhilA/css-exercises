@@ -1,0 +1,24 @@
+.odd {
+    background-color: lightpink;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+.third {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+// after checking answer:
+// i can use one class for multiple HTML elements if they share a common one
+// for example: font size. i could make one for the third and fourth element,
+// like what was shown in the solution.
