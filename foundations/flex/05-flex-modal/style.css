@@ -15,11 +15,51 @@ body {
   justify-content: center;
 }
 
+.big-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 15px;
+}
+
+.button-container {
+  display: flex;
+  flex-shrink: 1;
+  margin-top: 15px;
+  justify-content: flex-start;
+}
+
+.button-container .continue {
+  margin-right: 10px;
+}
+
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  padding: 20px;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .icon {
