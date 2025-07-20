@@ -24,3 +24,58 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* changes are below; i'll try to style my answers like how the solutions do it */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* removes the bullet points from the list */
+.left-links, .right-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.left-links li, .right-links li {
+  margin: 0 8px;
+}
+
+/* removes the text underline decorations */
+a:link, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.header, .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+.content { 
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px; /* this is to ensure there is vertical space among all content elements */
+  align-items: center;
+
+  /* added */
+  justify-content: center;
+}
+
+ button {
+  padding: 8px 16px;
+}
+
+/* one thing that could've been added was making all ul elements into a flex container, but I didn't do that here */
