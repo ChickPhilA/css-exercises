@@ -27,3 +27,78 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* my answers below */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer { /* making the header and footer into flex containers */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header { /* for the text only */
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 1 0;
+}
+
+.sidebar {
+  display: flex;
+  padding: 0 0 0 16px;
+  flex-wrap: nowrap;
+  flex-shrink: 0; /* this disables the sidebar from shrinking! */
+  flex-direction: column;
+}
+
+ul {
+  justify-self: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+li {
+  margin: 16px 0;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  /* margin: 12px 12px; */
+  /* flex: 0 1 300px; */
+  width: 300px;
+}
+
+.card-container {
+  display: flex;
+  padding: 48px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* centering the cards */
+  align-items: stretch; /* aligning the cards to the top */
+  gap: 32px; /* added from the solution */
+}
